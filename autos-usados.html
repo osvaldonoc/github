@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <title>Autos</title>
+</head>
+
+<body>
+  <!--///////////Encabezado/////////-->
+
+  <header class="container-fluid bg-primary d-flex justify-content-center">
+    <p class="text-light mb-0  p-2 fs-6">Contactanos +54 3644316000</p>
+  </header>
+
+  <!--///////////Barra navegacion/////////-->
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://luquecomercializadora.com/inicio/">
+        <img src="imag/logo-250x100-1.png" alt="luquecomercializadora" width="200" height="100">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active text-light mb-0  p-2 fs-6 " aria-current="page" href="#">inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light mb-0  p-2 fs-6 " href="#">Catálogo</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <br>
+
+  <div class="container">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="catalogo-tab" data-toggle="tab" href="#catalogo" role="tab"
+          aria-controls="catalogo" aria-selected="true">Catálogo</a>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="catalogo" role="tabpanel" aria-labelledby="catalogo-tab">
+        <form class="form-inline" target="_blank" action="http://koha.adminkuhn.ch/cgi-bin/koha/opac-search.pl">
+          <label class="sr-only">Búsqueda</label>
+          <input type="text" class="form-control mt-3 col-md-10" placeholder="Búsqueda en el catálogo" name="q">
+          <button type="submit" class="btn btn-primary mt-3 col-md-2">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
